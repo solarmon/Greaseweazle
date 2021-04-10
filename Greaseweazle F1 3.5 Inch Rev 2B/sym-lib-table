@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name Greaseweazle-F1-3.5-Inch-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 3.5 Inch-rescue.lib")(options "")(descr ""))
+  (lib (name 74ls-sergey)(type Legacy)(uri ${KIPRJMOD}/library/74ls-sergey.lib)(options "")(descr ""))
+  (lib (name controllers-sergey)(type Legacy)(uri ${KIPRJMOD}/library/controllers-sergey.lib)(options "")(descr ""))
+  (lib (name dallas-rtc)(type Legacy)(uri ${KIPRJMOD}/library/dallas-rtc.lib)(options "")(descr ""))
+  (lib (name devices-sergey)(type Legacy)(uri ${KIPRJMOD}/library/devices-sergey.lib)(options "")(descr ""))
+  (lib (name memory-sergey)(type Legacy)(uri ${KIPRJMOD}/library/memory-sergey.lib)(options "")(descr ""))
+  (lib (name intel-8xxx)(type Legacy)(uri ${KIPRJMOD}/library/intel-8xxx.lib)(options "")(descr ""))
+  (lib (name Greaseweazle-F1-3.5-Inch-Rev-2-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 3.5 Inch Rev 2-rescue.lib")(options "")(descr ""))
+  (lib (name Greaseweazle-F1-3.5-Inch-Rev-2B-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 3.5 Inch Rev 2B-rescue.lib")(options "")(descr ""))
+  (lib (name Greaseweazle-F1-Gotek-Rev-2B-rescue)(type Legacy)(uri "D:/Amiga/KiCAD/Projects/Greaseweazle F1 Gotek Rev 2B/Greaseweazle F1 Gotek Rev 2B-rescue.lib")(options "")(descr ""))
+)

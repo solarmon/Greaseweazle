@@ -1,0 +1,162 @@
+EESchema Schematic File Version 4
+LIBS:OLED and LED Display Adapter-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5FE72F78
+P 6325 2575
+F 0 "J1" H 6375 2875 50  0000 C CNN
+F 1 "Conn_01x04" H 6375 2800 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6325 2575 50  0001 C CNN
+F 3 "~" H 6325 2575 50  0001 C CNN
+	1    6325 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FE7519A
+P 5825 2475
+F 0 "#PWR0101" H 5825 2225 50  0001 C CNN
+F 1 "GND" H 5830 2302 50  0000 C CNN
+F 2 "" H 5825 2475 50  0001 C CNN
+F 3 "" H 5825 2475 50  0001 C CNN
+	1    5825 2475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6125 2475 5825 2475
+Text Label 5900 2675 2    50   ~ 0
+SCL
+Text Label 5900 2775 2    50   ~ 0
+SDA
+Wire Wire Line
+	5900 2675 6125 2675
+Wire Wire Line
+	5900 2775 6125 2775
+Wire Wire Line
+	5575 2575 6125 2575
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5FEB5A9C
+P 5075 3925
+F 0 "J3" V 5229 3637 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 5138 3637 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5075 3925 50  0001 C CNN
+F 3 "~" H 5075 3925 50  0001 C CNN
+	1    5075 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5FEB77E3
+P 4975 3525
+F 0 "#PWR0103" H 4975 3275 50  0001 C CNN
+F 1 "GND" H 4980 3352 50  0000 C CNN
+F 2 "" H 4975 3525 50  0001 C CNN
+F 3 "" H 4975 3525 50  0001 C CNN
+	1    4975 3525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4975 3525 4975 3725
+Wire Wire Line
+	5075 3375 5075 3725
+Text Label 5175 3475 1    50   ~ 0
+SCL
+Text Label 5275 3475 1    50   ~ 0
+SDA
+Text Label 5175 4175 3    50   ~ 0
+CLK
+Text Label 5275 4175 3    50   ~ 0
+DIO
+Wire Wire Line
+	5175 3475 5175 3725
+Connection ~ 5175 3725
+Wire Wire Line
+	5175 3725 5175 4175
+Wire Wire Line
+	5275 3475 5275 3725
+Connection ~ 5275 3725
+Wire Wire Line
+	5275 3725 5275 4175
+$Comp
+L power:VCC #PWR0102
+U 1 1 5FEBE5B2
+P 5575 2575
+F 0 "#PWR0102" H 5575 2425 50  0001 C CNN
+F 1 "VCC" V 5593 2702 50  0000 L CNN
+F 2 "" H 5575 2575 50  0001 C CNN
+F 3 "" H 5575 2575 50  0001 C CNN
+	1    5575 2575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5FEBF124
+P 5075 3375
+F 0 "#PWR0104" H 5075 3225 50  0001 C CNN
+F 1 "VCC" H 5092 3548 50  0000 C CNN
+F 2 "" H 5075 3375 50  0001 C CNN
+F 3 "" H 5075 3375 50  0001 C CNN
+	1    5075 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Top_Bottom J2
+U 1 1 5FECC46E
+P 5300 2000
+F 0 "J2" H 5350 2300 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 5350 2225 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 5300 2000 50  0001 C CNN
+F 3 "~" H 5300 2000 50  0001 C CNN
+	1    5300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FECD22A
+P 4800 2000
+F 0 "#PWR0105" H 4800 1750 50  0001 C CNN
+F 1 "GND" H 4805 1827 50  0000 C CNN
+F 2 "" H 4800 2000 50  0001 C CNN
+F 3 "" H 4800 2000 50  0001 C CNN
+	1    4800 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 2100 5100 2100
+$Comp
+L power:VCC #PWR0106
+U 1 1 5FECD235
+P 4550 2100
+F 0 "#PWR0106" H 4550 1950 50  0001 C CNN
+F 1 "VCC" V 4568 2227 50  0000 L CNN
+F 2 "" H 4550 2100 50  0001 C CNN
+F 3 "" H 4550 2100 50  0001 C CNN
+	1    4550 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 2000 5100 2000
+Text Label 5900 2000 0    50   ~ 0
+CLK
+Wire Wire Line
+	5900 2000 5600 2000
+Text Label 5900 2100 0    50   ~ 0
+DIO
+Wire Wire Line
+	5900 2100 5600 2100
+$EndSCHEMATC

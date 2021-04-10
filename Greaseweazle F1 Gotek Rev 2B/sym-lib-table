@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Greaseweazle-F1-Gotek-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 Gotek-rescue.lib")(options "")(descr ""))
+  (lib (name "Greaseweazle-F1-Gotek-(USB-A)-rescue")(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 Gotek (USB-A)-rescue.lib")(options "")(descr ""))
+  (lib (name Greaseweazle-F1-Gotek-Rev-2-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 Gotek Rev 2-rescue.lib")(options "")(descr ""))
+  (lib (name Greaseweazle-F1-Gotek-Rev-2B-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 Gotek Rev 2B-rescue.lib")(options "")(descr ""))
+)
