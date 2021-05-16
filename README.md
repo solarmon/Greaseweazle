@@ -53,9 +53,13 @@ GW F1 Plus 3.5": **COMING SOON**
 
 ## Track Display
 
-The GW F1 Plus Track Display is provided by an Arduino Nano. The sketch for this can be found at:
+The GW F1 Plus Gotek/3.5" Track Display is provided by an Arduino Nano. The Arduino sketch for this can be found at:
 
 https://github.com/solarmon/Greaseweazle/tree/main/Arduino_Nano_GW_F1_Plus_Floppy_Drive_Track_Display_LED_and_OLED
+
+The LEDC68 and OLED display adapter board can be found at:
+
+https://github.com/solarmon/Greaseweazle/tree/main/LEDC68%20and%200.9%20Inch%20OLED%20Adapter
 
 # Older Revisions
 
@@ -74,3 +78,12 @@ Design files for older revisions of the GW F1 boards can be found at:
 * Rev 2: https://github.com/solarmon/Greaseweazle/tree/main/Greaseweazle%20F1%203.5%20Inch%20Rev%202
 * Rev 2B: https://github.com/solarmon/Greaseweazle/tree/main/Greaseweazle%20F1%203.5%20Inch%20Rev%202B
 
+## Track Display
+
+These older revision GW F1 Plus Track Display is provided by an Arduino Nano. The Arduino sketch for this can be found at:
+
+https://github.com/solarmon/Greaseweazle/tree/main/Arduino_Nano_GW_F1_Floppy_Drive_Track_Display_LED_and_OLED_v1
+
+The LEDC68 and OLED display adapter board can be found at:
+
+https://github.com/solarmon/Greaseweazle/tree/main/LEDC68%20and%200.9%20Inch%20OLED%20Adapter
