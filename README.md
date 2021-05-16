@@ -7,7 +7,12 @@ https://github.com/keirf/Greaseweazle
 
 # Greaseweazle F1 Plus
 
-Design Files: **COMING SOON**
+## Design Files
+
+GW F1 Plus Gotek: **COMING SOON**
+GW F1 Plus 3.5": **COMING SOON**
+
+## Features
 
 **Standard Features:**
 |   | F1 Plus Gotek	| F1 Plus 3.5"|
