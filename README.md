@@ -61,6 +61,8 @@ The LEDC68 and OLED display adapter board can be found at:
 
 https://github.com/solarmon/Greaseweazle/tree/main/LEDC68%20and%200.9%20Inch%20OLED%20Adapter
 
+![Top](https://github.com/solarmon/Greaseweazle/blob/main/LEDC68%20and%200.9%20Inch%20OLED%20Adapter/LEDC68%20and%200.9%20Inch%20OLED%20Adapter%20-%20Top.png)
+
 # Older Revisions
 
 Design files for older revisions of the GW F1 boards can be found at:
