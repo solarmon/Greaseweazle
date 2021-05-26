@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Greaseweazle F1 in a Gotek Case (USB-A)")(type KiCad)(uri "${KIPRJMOD}/Greaseweazle F1 in a Gotek Case (USB-A).pretty")(options "")(descr ""))
+)
