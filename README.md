@@ -7,12 +7,9 @@ https://github.com/keirf/Greaseweazle
 
 # Greaseweazle F1 Plus
 
-## Design Files
-
-GW F1 Plus Gotek: **COMING SOON**
-GW F1 Plus 3.5": **COMING SOON**
-
 ## Features
+
+These are the features of the GW F1 Plus boards.
 
 **Standard Features:**
 |   | F1 Plus Gotek	| F1 Plus 3.5"|
@@ -24,13 +21,16 @@ GW F1 Plus 3.5": **COMING SOON**
 |High-Speed USB| - | - |			
 |12v Power|Yes|Yes|
 |Flippy Drive|Yes|Yes|
-|User Outputs|2|2|
+|Disk Change Detect|Yes|Yes|
+|User Outputs|3|3|
+
+Note: **Disk Change Detect** allows WinUAE integration - see https://amiga.robsmithdev.co.uk/winuae
 
 **Other Features:**
 |   | F1 Plus Gotek	| F1 Plus 3.5"|
 |---|---|---|
 |Gotek Case Form Factor|Yes|		-		|
-|3.5" Drive Form Factor|		-		|			Yes|
+|3.5" Floppy Drive Form Factor|		-		|			Yes|
 |STM32 Blue Pill MCU|				Yes|				Yes|
 |**Arduino Nano Track Display:**|		Yes|				Yes|
 |	- LEDC68 Display|			Yes|				Yes|
@@ -45,11 +45,52 @@ GW F1 Plus 3.5": **COMING SOON**
 |	- 3.3V|						Yes|				Yes|
 |	- 5V|							Yes|				Yes|
 |	- 12V|							Yes|				Yes|
+| - Type: SMT| - | Yes|
+| - Type: THT| Yes | Yes|
 |Write Enable Jumper|				Yes|				Yes|
 |Input pullups|					Yes|				Yes|
 |Reset Button|					Yes|				Yes|
 |Serial Programming Header|		Yes|				Yes|
 |SWD Programming Header|			Yes|				Yes|
+
+The features of the official Greaseweazle models can be seen at:
+
+https://github.com/keirf/Greaseweazle/wiki/Greaseweazle-Models
+
+## Greaseweazle F1 Plus Gotek
+
+**Design Files:** https://github.com/solarmon/Greaseweazle/tree/main/Greaseweazle%20F1%20Plus%20Gotek
+
+This Greaseweazle board has been designed to re-purpose and fit into an original Gotek case; and to make use of its LEDC68 display as a track display.
+
+It has been designed to sit on top of the floppy drive that is connected to it.
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%20Gotek/Greaseweazle%20F1%20Plus%20Gotek%20-%20PCB%20THT%20Front.png)
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%20Gotek/Greaseweazle%20F1%20Plus%20Gotek%20-%20PCB%20THT%20Top.png)
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%20Gotek/Greaseweazle%20F1%20Plus%20Gotek%20-%20PCB%20SMD%20Top.png)
+
+
+## Greaseweazle F1 Plus 3.5"
+
+**Design Files:** https://github.com/solarmon/Greaseweazle/tree/main/Greaseweazle%20F1%20Plus%203.5
+
+This Greaseweazle board has been designed to have a 3.5" floppy drive mounted directly on top of it, using the floppy drive standard mounting holes.
+
+The track display feature can support the LEDC68 Gotek LED display, or a 128x32 0.91" OLED display, or a 128x64 0.96" OLED display.
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%203.5/Greaseweazle%20F1%20Plus%203.5%20-%20PCB%20SMT%20Front%20Angle.png)
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%203.5/Greaseweazle%20F1%20Plus%203.5%20-%20PCB%20SMT%20Front.png)
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%203.5/Greaseweazle%20F1%20Plus%203.5%20-%20PCB%20SMT%20Side.png)
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%203.5/Greaseweazle%20F1%20Plus%203.5%20-%20PCB%20SMT%20THT%20Bottom.png)
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%203.5/Greaseweazle%20F1%20Plus%203.5%20-%20PCB%20SMT%20Top.png)
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%203.5/Greaseweazle%20F1%20Plus%203.5%20-%20PCB%20Bottom.png)
 
 ## Track Display
 
@@ -57,7 +98,7 @@ The GW F1 Plus Gotek/3.5" Track Display is provided by an Arduino Nano. The Ardu
 
 https://github.com/solarmon/Greaseweazle/tree/main/Arduino_Nano_GW_F1_Plus_Floppy_Drive_Track_Display_LED_and_OLED
 
-The LEDC68 and OLED display adapter board can be found at:
+The LEDC68 and OLED display adapter board, used in the GW F1 3.5" and GW F1 Plus 3.5" boards, can be found at:
 
 https://github.com/solarmon/Greaseweazle/tree/main/LEDC68%20and%200.9%20Inch%20OLED%20Adapter
 
