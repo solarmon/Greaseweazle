@@ -21,13 +21,16 @@ These are the features of the GW F1 Plus boards.
 |High-Speed USB| - | - |			
 |12v Power|Yes|Yes|
 |Flippy Drive|Yes|Yes|
-|User Outputs|2|2|
+|Disk Change Detect|Yes|Yes|
+|User Outputs|3|3|
+
+Note: **Disk Change Detect** allows WinUAE integration - see https://amiga.robsmithdev.co.uk/winuae
 
 **Other Features:**
 |   | F1 Plus Gotek	| F1 Plus 3.5"|
 |---|---|---|
 |Gotek Case Form Factor|Yes|		-		|
-|3.5" Drive Form Factor|		-		|			Yes|
+|3.5" Floppy Drive Form Factor|		-		|			Yes|
 |STM32 Blue Pill MCU|				Yes|				Yes|
 |**Arduino Nano Track Display:**|		Yes|				Yes|
 |	- LEDC68 Display|			Yes|				Yes|
@@ -95,7 +98,7 @@ The GW F1 Plus Gotek/3.5" Track Display is provided by an Arduino Nano. The Ardu
 
 https://github.com/solarmon/Greaseweazle/tree/main/Arduino_Nano_GW_F1_Plus_Floppy_Drive_Track_Display_LED_and_OLED
 
-The LEDC68 and OLED display adapter board, used in the GW F1 and GW F1 Plus boards, can be found at:
+The LEDC68 and OLED display adapter board, used in the GW F1 3.5" and GW F1 Plus 3.5" boards, can be found at:
 
 https://github.com/solarmon/Greaseweazle/tree/main/LEDC68%20and%200.9%20Inch%20OLED%20Adapter
 
