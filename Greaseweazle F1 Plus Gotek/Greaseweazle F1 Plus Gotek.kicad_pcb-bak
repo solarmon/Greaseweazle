@@ -2,7 +2,7 @@
 
   (general
     (thickness 1)
-    (drawings 324)
+    (drawings 326)
     (tracks 1211)
     (zones 0)
     (modules 88)
@@ -2781,10 +2781,10 @@
       (net 31 /SWD_SWIO))
     (pad 41 thru_hole rect (at 3.81 44.45 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 +3V3))
-    (model ${KISYS3DMOD}/Kicad-STM32-master.3dshapes/YAAJ_BluePill_PinHeaders_H_SWD/YAAJ_BluePill_PinHeaders_H_SWD_cp.step
-      (at (xyz 0 0 0))
+    (model "${KISYS3DMOD}/stm32f103c8t6-blue-pill-board-1.snapshot.2/STM32F103C8T6_Blue_Pill v6.step"
+      (offset (xyz 18.9 -50.7 2.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -5408,6 +5408,8 @@
     )
   )
 
+  (gr_circle (center 112.522 76.2) (end 112.672 76.2) (layer F.SilkS) (width 0.3) (tstamp 60B72EBC))
+  (gr_circle (center 112.522 95.25) (end 112.672 95.25) (layer F.SilkS) (width 0.3) (tstamp 60B72EBA))
   (gr_text "D4 at front\nor rear" (at 196.088 54.991) (layer F.SilkS) (tstamp 606895A1)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
   )
@@ -5482,9 +5484,9 @@
   (gr_circle (center 179.451 77.343) (end 179.651 77.343) (layer F.SilkS) (width 0.6) (tstamp 60168312))
   (gr_circle (center 195.58 110.363) (end 195.78 110.363) (layer F.SilkS) (width 0.6) (tstamp 601682FC))
   (gr_circle (center 134.493 127.762) (end 134.593 127.762) (layer F.SilkS) (width 0.2) (tstamp 60167C2E))
-  (gr_circle (center 119.507 122.428) (end 119.607 122.428) (layer F.SilkS) (width 0.2) (tstamp 601678C6))
-  (gr_circle (center 110.744 49.53) (end 110.844 49.53) (layer F.SilkS) (width 0.2) (tstamp 60167560))
-  (gr_circle (center 128.524 45.593) (end 128.624 45.593) (layer F.SilkS) (width 0.2))
+  (gr_circle (center 119.126 123.063) (end 119.276 123.063) (layer F.SilkS) (width 0.3) (tstamp 601678C6))
+  (gr_circle (center 110.617 49.53) (end 110.767 49.53) (layer F.SilkS) (width 0.3) (tstamp 60167560))
+  (gr_circle (center 128.524 45.593) (end 128.674 45.593) (layer F.SilkS) (width 0.3))
   (gr_text 1 (at 161.036 90.678) (layer F.SilkS) (tstamp 6014AE43)
     (effects (font (size 0.6 0.6) (thickness 0.125)))
   )

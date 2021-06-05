@@ -1,4 +1,4 @@
-19124603678555025
+19129467120073396
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83027,6 +83027,13 @@ varistor SIOV
 2
 2
 solarmon_library
+68611814422
+68611814422-1
+Connector
+0
+20
+20
+solarmon_library
 3-digit-LED-Display
 
 
@@ -83054,6 +83061,13 @@ DPDT_THT_Toggle_Switch_On-On-On_Rightangle_Farnell_1MD6T2B4M7RE
 0
 8
 6
+solarmon_library
+FPC-SMD_X10B25U18T
+
+
+0
+20
+19
 solarmon_library
 Floppy_Drive
 
@@ -83110,6 +83124,13 @@ plcc leaded
 0
 52
 52
+solarmon_library
+PUSH_BUTTON_RIGHT_ANGLE
+
+
+0
+4
+2
 solarmon_library
 PinHeader_1x04_P2.54mm_SMD_OVAL
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
