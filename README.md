@@ -5,6 +5,8 @@ Various PCB projects based on **keirf**'s Greaseweazle project for reading and w
 
 https://github.com/keirf/Greaseweazle
 
+Special thanks to **Stefano Cappelli** of https://www.picoelements.com/ for making the time and effort to beta testing these boards. 
+
 # Greaseweazle F1 Plus
 
 ## Features
