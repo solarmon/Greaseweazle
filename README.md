@@ -28,6 +28,10 @@ These are the features of the GW F1 Plus boards.
 
 Note: **Disk Change Detect** allows WinUAE integration - see https://amiga.robsmithdev.co.uk/winuae
 
+The features of the official Greaseweazle models can be seen at:
+
+https://github.com/keirf/Greaseweazle/wiki/Greaseweazle-Models
+
 **Other Features:**
 |   | F1 Plus Mini | F1 Plus | F1 Plus Gotek	| F1 Plus 3.5"|
 |---|---|---|---|---|
@@ -56,21 +60,24 @@ Note: **Disk Change Detect** allows WinUAE integration - see https://amiga.robsm
 |SWD Programming Header|-|Yes|			Yes|				Yes|
 |Disk Change Jumper|Yes|Yes|-|-|
 
-The features of the official Greaseweazle models can be seen at:
+**Note:** The **Disk Change Jumper** allows you to use an Amiga drive with WinUAE.
 
-https://github.com/keirf/Greaseweazle/wiki/Greaseweazle-Models
 
 ## Greaseweazle F1 Plus Mini
 
-**Design Files:**
+**Design Files:** https://github.com/solarmon/Greaseweazle/tree/main/Greaseweazle%20F1%20Plus%20Mini
 
-COMING SOON
+This is the most basic F1 Plus model and has the smallest footprint.
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%20Mini/Greaseweazle%20F1%20Plus%20Mini%20-PCB%20THT%20Top.png)
 
 ## Greaseweazle F1 Plus
 
-**Design Files:**
+**Design Files:** https://github.com/solarmon/Greaseweazle/tree/main/Greaseweazle%20F1%20Plus
 
-COMING SOON
+This is the standard F1 Plus model, has a standard footprint but no Track Display features. 
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus/Greaseweazle%20F1%20Plus%20-%20PCB%20THT%20Top.png)
 
 ## Greaseweazle F1 Plus Gotek
 
