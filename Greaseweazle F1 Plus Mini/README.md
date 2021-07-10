@@ -1,5 +1,9 @@
 # Greaseweazle F1 Plus Mini
 
+This is the most basic F1 Plus model and has the smallest footprint.
+
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%20Mini/Greaseweazle%20F1%20Plus%20Mini%20-PCB%20THT%20Top.png)
+
 ## Jumpers
 
 * **JP101** - Disk Change
