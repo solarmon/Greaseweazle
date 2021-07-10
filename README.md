@@ -14,50 +14,63 @@ Special thanks to **Stefano Cappelli** of https://www.picoelements.com/ for maki
 These are the features of the GW F1 Plus boards.
 
 **Standard Features:**
-|   | F1 Plus Gotek	| F1 Plus 3.5"|
-|---|---|---|
-|Jumperless Update|Yes|Yes|
-|Multiple Drives|Yes|Yes|
-|Write-Protect Jumper|Yes|Yes|
-|Buffered Outputs|Yes|Yes|
-|High-Speed USB| - | - |			
-|12v Power|Yes|Yes|
-|Flippy Drive|Yes|Yes|
-|Disk Change Detect|Yes|Yes|
-|User Outputs|3|3|
+|   | F1 Plus Mini | F1 Plus | F1 Plus Gotek	| F1 Plus 3.5"|
+|---|---|---|---|---|
+|Jumperless Update|Yes|Yes|Yes|Yes|
+|Multiple Drives|Yes|Yes|Yes|Yes|
+|Write-Protect Jumper| - |Yes|Yes|Yes|
+|Buffered Outputs| - |Yes|Yes|Yes|
+|High-Speed USB| - | - | - | - |			
+|12v Power| - |Yes|Yes|Yes|
+|Flippy Drive| - |Yes|Yes|Yes|
+|Disk Change Detect|Yes|Yes|Yes|Yes|
+|User Outputs|3|3|3|3|
 
 Note: **Disk Change Detect** allows WinUAE integration - see https://amiga.robsmithdev.co.uk/winuae
 
 **Other Features:**
-|   | F1 Plus Gotek	| F1 Plus 3.5"|
-|---|---|---|
-|Gotek Case Form Factor|Yes|		-		|
-|3.5" Floppy Drive Form Factor|		-		|			Yes|
+|   | F1 Plus Mini | F1 Plus | F1 Plus Gotek	| F1 Plus 3.5"|
+|---|---|---|---|---|
+|Gotek Case Form Factor| - | -  |Yes|		-		|
+|3.5" Floppy Drive Form Factor| - | - |		-		|			Yes|
 |STM32 Blue Pill MCU|				Yes|				Yes|
-|**Arduino Nano Track Display:**|		Yes|				Yes|
-|	- LEDC68 Display|			Yes|				Yes|
-|	- 0.91" OLED Display|		(Yes)|			Yes|
-|	- 0.96" OLED Display|		(Yes)|			Yes|
-|	- SD Card Reader|			Yes|				Yes|
-|USB ESD Protection|				Yes|				Yes|
-|12V Reverse Polarity Protection|	Yes|				Yes|
-|Poly Fuse|						Yes|				Yes|
-|**LED Status:**|						Yes|				Yes|
-|	- Activity|					Yes|				Yes|
-|	- 3.3V|						Yes|				Yes|
-|	- 5V|							Yes|				Yes|
-|	- 12V|							Yes|				Yes|
-| - Type: SMT| - | Yes|
-| - Type: THT| Yes | Yes|
-|Write Enable Jumper|				Yes|				Yes|
-|Input pullups|					Yes|				Yes|
-|Reset Button|					Yes|				Yes|
-|Serial Programming Header|		Yes|				Yes|
-|SWD Programming Header|			Yes|				Yes|
+|**Arduino Nano Track Display:**| - | - |		Yes|				Yes|
+|	- LEDC68 Display| - | - |			Yes|				Yes|
+|	- 0.91" OLED Display| - | - |		(Yes)|			Yes|
+|	- 0.96" OLED Display| - | - |		(Yes)|			Yes|
+|	- SD Card Reader| - | - |			Yes|				Yes|
+|USB ESD Protection| - | (Yes) |				Yes|				Yes|
+|12V Reverse Polarity Protection| - | Yes |	Yes|				Yes|
+|Poly Fuse| - |Yes|						Yes|				Yes|
+|**LED Status:**|Yes|Yes|						Yes|				Yes|
+|	- Activity|Yes|Yes|					Yes|				Yes|
+|	- 3.3V|Yes|Yes|						Yes|				Yes|
+|	- 5V|Yes|Yes|							Yes|				Yes|
+|	- 12V| - |Yes |							Yes|				Yes|
+| - Type: SMT|Yes|Yes| - | Yes|
+| - Type: THT|Yes|Yes| Yes | Yes|
+|Write Enable Jumper| - |Yes|				Yes|				Yes|
+|Input pullups|Yes|Yes|					Yes|				Yes|
+|Reset Button|Yes|Yes|					Yes|				Yes|
+|Serial Programming Header|Yes|Yes|		Yes|				Yes|
+|SWD Programming Header|-|Yes|			Yes|				Yes|
+|Disk Change Jumper|Yes|Yes|-|-|
 
 The features of the official Greaseweazle models can be seen at:
 
 https://github.com/keirf/Greaseweazle/wiki/Greaseweazle-Models
+
+## Greaseweazle F1 Plus Mini
+
+**Design Files:**
+
+COMING SOON
+
+## Greaseweazle F1 Plus
+
+**Design Files:**
+
+COMING SOON
 
 ## Greaseweazle F1 Plus Gotek
 
