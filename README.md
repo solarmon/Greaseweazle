@@ -37,7 +37,7 @@ https://github.com/keirf/Greaseweazle/wiki/Greaseweazle-Models
 |---|---|---|---|---|
 |Gotek Case Form Factor| - | -  |Yes|		-		|
 |3.5" Floppy Drive Form Factor| - | - |		-		|			Yes|
-|STM32 Blue Pill MCU|				Yes|				Yes|
+|STM32 Blue Pill MCU|Yes|Yes|Yes|Yes|
 |**Arduino Nano Track Display:**| - | - |		Yes|				Yes|
 |	- LEDC68 Display| - | - |			Yes|				Yes|
 |	- 0.91" OLED Display| - | - |		(Yes)|			Yes|
