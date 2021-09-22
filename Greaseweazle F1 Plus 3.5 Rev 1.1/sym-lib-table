@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Greaseweazle-F1-Plus-3.5-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 Plus 3.5-rescue.lib")(options "")(descr ""))
+  (lib (name Greaseweazle-F1-Plus-3.5-Rev-2-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 Plus 3.5 Rev 2-rescue.lib")(options "")(descr ""))
+  (lib (name Greaseweazle-F1-Plus-3.5-Rev-1.1-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 Plus 3.5 Rev 1.1-rescue.lib")(options "")(descr ""))
+)
