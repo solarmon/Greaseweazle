@@ -80,7 +80,7 @@ This is the most basic F1 Plus model and has the smallest footprint.
 
 This is the standard F1 Plus model, has a standard footprint but no Track Display features. 
 
-![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%203.5%20Rev%201.1/Greaseweazle%20F1%20Plus%203.5%20-%20PCB%20Top.png)
+![](https://github.com/solarmon/Greaseweazle/blob/main/Greaseweazle%20F1%20Plus%20Rev%201.1/Greaseweazle%20F1%20Plus%20-%20PCB%20THT%20Top.png)
 
 ## Greaseweazle F1 Plus Gotek
 
